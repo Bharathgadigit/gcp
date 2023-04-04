@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jpod
+  labels:
+    type: ci-cd
+    author: bharath
+spec:
+  containers:
+    - name: myj
+      image: jenkins/jenkins
+...
